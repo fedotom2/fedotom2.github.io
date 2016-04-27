@@ -15,7 +15,20 @@
 	<body>
 		<h1>
 			<?php 
-				echo "Hello World";
+				if ($_GET['write']) {
+					$write = $_GET['write'];
+					if ($write == "") {
+						unset($write);
+					}
+
+					if (empty($write)) {
+						$write = "Hello World";
+					}
+				} else {
+					$write = "Hello World";
+				}
+
+				echo $write;
 			?>
 		</h1>
 	</body>
