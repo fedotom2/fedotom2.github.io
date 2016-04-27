@@ -14,21 +14,8 @@
 	</head>
 	<body>
 		<h1>
-			<?php 
-				if ($_GET['write']) {
-					$write = $_GET['write'];
-					if ($write == "") {
-						unset($write);
-					}
-
-					if (empty($write)) {
-						$write = "Hello World";
-					}
-				} else {
-					$write = "Hello World";
-				}
-
-				echo $write;
+			<?php
+				echo "Hello World";
 			?>
 		</h1>
 	</body>
