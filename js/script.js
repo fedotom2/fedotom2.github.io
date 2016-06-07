@@ -1,5 +1,5 @@
 (function() {
-
+/*
     var doc = document,
         mbtn = doc.getElementsByClassName('mbtn'),
         m_elem;
@@ -16,5 +16,15 @@
             m_elem = elem;
         };
     };
-
+*/
 })();
+
+$(document).ready(function(){
+    $('area[href^="#"]').click(function(){
+        var el = $(this).attr('href');
+        $('body').animate({
+            scrollTop: $(el).offset().top
+        }, 2000);
+        return false;
+    });
+});
