@@ -21,3 +21,8 @@ body {
 .content {
 
 }
+
+.photo {
+    padding: 0 15px 0 0;
+    float: left;
+}
