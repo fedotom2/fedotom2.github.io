@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSans-Regular';
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-menu {
+
+}
+
+.content {
+
+}
+
+.photo {
+    padding: 0 15px 0 0;
+    float: left;
+}
+
+.im {
+    position: absolute;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: .2s;
+}
+
+.im:hover {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.i {
+    width: 66px;
+    margin: 0 0 0 74px;
+}
+
+.im1 {
+    top: 205px;
+}
+
+.im2 {
+    top: 282px;1
+}
+
+.im3 {
+    top: 354px;
+}
+
+.im4 {
+    top: 431px;
+}
+
+.m {
+
+}
+
+.im5 {
+
+}
+
+.im5:hover {
+    
+}
