@@ -1,9 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fff;
 }
 
-#opoint, #body {
+.point {
     position: absolute;
     width: 20px;
     height: 20px;
