@@ -147,20 +147,20 @@
         }
     };
 
-    var checkMouseDown = function (e) {
+    var checkTouchStart = function (e) {
         OPoint.toGoal = true;
-        OPoint.goalX = e.screenX;
-        OPoint.goalY = e.screenY;
+        OPoint.goalX = e.touches[0].clientX;
+        OPoint.goalY = e.touches[0].clientY;
     };
 
-    var checkMouseUp = function (e) {
+    var checkTouchEnd = function (e) {
         OPoint.toGoal = false;
     };
 
     document.addEventListener('keydown', checkKeyDown, false);
     document.addEventListener('keyup', checkKeyUp, false);
-    document.addEventListener('mousedown', checkMouseDown, false);
-    document.addEventListener('mouseup', checkMouseUp, false);
+    document.addEventListener('touchstart', checkTouchStart, false);
+    document.addEventListener('touchend', checkTouchEnd, false);
 
     var loop = function () {
         OPoint.changeCords();
