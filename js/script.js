@@ -15,10 +15,14 @@
             this.y = 500;
             this.speed = 10;
 
+            this.goalX;
+            this.goalY;
+
             this.isLeft = false;
             this.isRight = false;
             this.isUp = false;
             this.isDown = false;
+            this.toGoal = false;
 
             this.obj = document.getElementById('opoint');
             this.obj.style.left = this.x + 'px';
@@ -39,8 +43,14 @@
             this.obj.style.top = this.y + 'px';
         };
 
-        OPoint.prototype.checkKeyDown = function (e) {
-            console.log(e);
+        OPoint.prototype.changeCordsMouse = function () {
+            if (this.toGoal) {
+                var dx = (this.goalX - this.x) / 50;
+                this.x += dx;
+
+                var dy = (this.goalY - this.y) / 50;
+                this.y += dy;
+            }
         };
 
         return new OPoint;
@@ -137,11 +147,24 @@
         }
     };
 
+    var checkMouseDown = function (e) {
+        OPoint.toGoal = true;
+        OPoint.goalX = e.screenX;
+        OPoint.goalY = e.screenY;
+    };
+
+    var checkMouseUp = function (e) {
+        OPoint.toGoal = false;
+    };
+
     document.addEventListener('keydown', checkKeyDown, false);
     document.addEventListener('keyup', checkKeyUp, false);
+    document.addEventListener('mousedown', checkMouseDown, false);
+    document.addEventListener('mouseup', checkMouseUp, false);
 
     var loop = function () {
         OPoint.changeCords();
+        OPoint.changeCordsMouse();
         Body.changeAlpha();
         requestAnimationFrame(loop);
     };
