@@ -18,6 +18,10 @@
     };
 
     $(document).ready(function() {
+        if ($('#changeTheme').attr('checked') == 'checked') {
+            changeTheme();
+        }
+
         $('#changeTheme').change(function () {
             changeTheme();
         });

@@ -11,8 +11,8 @@
 
     var OPoint = (function () {
         function OPoint() {
-            this.x = 500;
-            this.y = 500;
+            this.x = screen.width / 2;
+            this.y = screen.height / 2;
             this.speed = 10;
 
             this.goalX;
@@ -60,12 +60,64 @@
         function Body() {
             this.radius = 100;
             this.alpha = 90;
-            this.speed = 5;
+            this.speed = 10;
 
             this.x = this.radius * Math.sin(this.alpha * Math.PI / 180) + OPoint.x;
             this.y = this.radius * Math.cos(this.alpha * Math.PI / 180) + OPoint.y;
 
             this.obj = document.getElementById('body');
+            this.obj.style.left = this.x + 'px';
+            this.obj.style.top = this.y + 'px';
+        }
+
+        Body.prototype.changeAlpha = function () {
+            this.alpha += this.speed;
+            this.x = this.radius * Math.sin(this.alpha * Math.PI / 180) + OPoint.x;
+            this.y = this.radius * Math.cos(this.alpha * Math.PI / 180) + OPoint.y;
+
+            this.obj.style.left = this.x + 'px';
+            this.obj.style.top = this.y + 'px';
+        };
+
+        return new Body();
+    })();
+
+    var Body1 = (function () {
+        function Body() {
+            this.radius = 50;
+            this.alpha = 90;
+            this.speed = -20;
+
+            this.x = this.radius * Math.sin(this.alpha * Math.PI / 180) + OPoint.x;
+            this.y = this.radius * Math.cos(this.alpha * Math.PI / 180) + OPoint.y;
+
+            this.obj = document.getElementById('body1');
+            this.obj.style.left = this.x + 'px';
+            this.obj.style.top = this.y + 'px';
+        }
+
+        Body.prototype.changeAlpha = function () {
+            this.alpha += this.speed;
+            this.x = this.radius * Math.sin(this.alpha * Math.PI / 180) + OPoint.x;
+            this.y = this.radius * Math.cos(this.alpha * Math.PI / 180) + OPoint.y;
+
+            this.obj.style.left = this.x + 'px';
+            this.obj.style.top = this.y + 'px';
+        };
+
+        return new Body();
+    })();
+
+    var Body2 = (function () {
+        function Body() {
+            this.radius = 100;
+            this.alpha = 90;
+            this.speed = -15;
+
+            this.x = this.radius * Math.sin(this.alpha * Math.PI / 180) + OPoint.x;
+            this.y = this.radius * Math.cos(this.alpha * Math.PI / 180) + OPoint.y;
+
+            this.obj = document.getElementById('body2');
             this.obj.style.left = this.x + 'px';
             this.obj.style.top = this.y + 'px';
         }
@@ -166,6 +218,8 @@
         OPoint.changeCords();
         OPoint.changeCordsMouse();
         Body.changeAlpha();
+        Body1.changeAlpha();
+        Body2.changeAlpha();
         requestAnimationFrame(loop);
     };
 
