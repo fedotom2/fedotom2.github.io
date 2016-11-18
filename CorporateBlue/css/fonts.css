@@ -1,0 +1,75 @@
+@font-face{
+	font-family: Oswald-Bold;
+	src: url('../fonts/Oswald/Oswald-Bold.ttf');
+}
+
+@font-face{
+	font-family: Oswald-BoldItalic;
+	src: url('../fonts/Oswald/Oswald-BoldItalic.ttf');
+}
+
+@font-face{
+	font-family: Oswald-Demi-BoldItalic;
+	src: url('../fonts/Oswald/Oswald-Demi-BoldItalic.ttf');
+}
+
+@font-face{
+	font-family: Oswald-DemiBold;
+	src: url('../fonts/Oswald/Oswald-DemiBold.ttf');
+}
+
+@font-face{
+	font-family: Oswald-Extra-LightItalic;
+	src: url('../fonts/Oswald/Oswald-Extra-LightItalic.ttf');
+}
+
+@font-face{
+	font-family: Oswald-ExtraLight;
+	src: url('../fonts/Oswald/Oswald-ExtraLight.ttf');
+}
+
+@font-face{
+	font-family: Oswald-Heavy;
+	src: url('../fonts/Oswald/Oswald-Heavy.ttf');
+}
+
+@font-face{
+	font-family: Oswald-HeavyItalic;
+	src: url('../fonts/Oswald/Oswald-HeavyItalic.ttf');
+}
+
+@font-face{
+	font-family: Oswald-Light;
+	src: url('../fonts/Oswald/Oswald-Light.ttf');
+}
+
+@font-face{
+	font-family: Oswald-LightItalic;
+	src: url('../fonts/Oswald/Oswald-LightItalic.ttf');
+}
+
+
+@font-face{
+	font-family: Oswald-Medium;
+	src: url('../fonts/Oswald/Oswald-Medium.ttf');
+}
+
+@font-face{
+	font-family: Oswald-MediumItalic;
+	src: url('../fonts/Oswald/Oswald-MediumItalic.ttf');
+}
+
+@font-face{
+	font-family: Oswald-Regular;
+	src: url('../fonts/Oswald/Oswald-Regular.ttf');
+}
+
+@font-face{
+	font-family: Oswald-RegularItalic;
+	src: url('../fonts/Oswald/Oswald-RegularItalic.ttf');
+}
+
+@font-face{
+	font-family: Oswald-Stencil;
+	src: url('../fonts/Oswald/Oswald-Stencil.ttf');
+}

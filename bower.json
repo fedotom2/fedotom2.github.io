@@ -1,12 +1,12 @@
 {
-  "name": "motion",
+  "name": "github.io",
+  "homepage": "https://github.com/fedotom2/fedotom2.github.io",
   "authors": [
     "fedotom <fedotom2@gmail.com>"
   ],
-  "description": "Simple motion",
+  "description": "Fedotom2 site",
   "main": "index.html",
   "license": "MIT",
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,8 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.1.1",
-    "bootstrap": "^3.3.7",
-    "bootstrap-toggle": "^2.2.2"
+    "bootstrap": "^3.3.7"
   }
 }
