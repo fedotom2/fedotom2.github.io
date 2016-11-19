@@ -1,0 +1,495 @@
+. ��── bower_components ��   ├── bootstrap ��   │   ├── bower.json ��   
+│   ├── CHANGELOG.md ��   │   ├── dist ��   │   │   ├── css ��   │   │   
+│   ├── bootstrap.css ��   │   │   │   ├── bootstrap.css.map ��   │   
+│   │   ├── bootstrap.min.css ��   │   │   │   ├── bootstrap.min.css.map 
+��   │   │   │   ├── bootstrap-theme.css ��   │   │   │   ├── 
+bootstrap-theme.css.map ��   │   │   │   ├── bootstrap-theme.min.css 
+��   │   │   │   └── bootstrap-theme.min.css.map ��   │   │   ├── fonts 
+��   │   │   │   ├── glyphicons-halflings-regular.eot ��   │   │   │   
+├── glyphicons-halflings-regular.svg ��   │   │   │   ├── 
+glyphicons-halflings-regular.ttf ��   │   │   │   ├── 
+glyphicons-halflings-regular.woff ��   │   │   │   └── 
+glyphicons-halflings-regular.woff2 ��   │   │   └── js ��   │   │   ├── 
+bootstrap.js ��   │   │   ├── bootstrap.min.js ��   │   │   └── npm.js 
+��   │   ├── fonts ��   │   │   ├── glyphicons-halflings-regular.eot 
+��   │   │   ├── glyphicons-halflings-regular.svg ��   │   │   ├── 
+glyphicons-halflings-regular.ttf ��   │   │   ├── 
+glyphicons-halflings-regular.woff ��   │   │   └── 
+glyphicons-halflings-regular.woff2 ��   │   ├── Gemfile ��   │   ├── 
+Gemfile.lock ��   │   ├── grunt ��   │   │   ├── 
+bs-commonjs-generator.js ��   │   │   ├── 
+bs-glyphicons-data-generator.js ��   │   │   ├── bs-lessdoc-parser.js 
+��   │   │   ├── bs-raw-files-generator.js ��   │   │   ├── 
+change-version.js ��   │   │   ├── configBridge.json ��   │   │   ├── 
+npm-shrinkwrap.json ��   │   │   └── sauce_browsers.yml ��   │   ├── 
+Gruntfile.js ��   │   ├── ISSUE_TEMPLATE.md ��   │   ├── js ��   │   │   
+├── affix.js ��   │   │   ├── alert.js ��   │   │   ├── button.js ��   
+│   │   ├── carousel.js ��   │   │   ├── collapse.js ��   │   │   ├── 
+dropdown.js ��   │   │   ├── modal.js ��   │   │   ├── popover.js ��   
+│   │   ├── scrollspy.js ��   │   │   ├── tab.js ��   │   │   ├── 
+tooltip.js ��   │   │   └── transition.js ��   │   ├── less ��   │   │   
+├── alerts.less ��   │   │   ├── badges.less ��   │   │   ├── 
+bootstrap.less ��   │   │   ├── breadcrumbs.less ��   │   │   ├── 
+button-groups.less ��   │   │   ├── buttons.less ��   │   │   ├── 
+carousel.less ��   │   │   ├── close.less ��   │   │   ├── code.less 
+��   │   │   ├── component-animations.less ��   │   │   ├── 
+dropdowns.less ��   │   │   ├── forms.less ��   │   │   ├── 
+glyphicons.less ��   │   │   ├── grid.less ��   │   │   ├── 
+input-groups.less ��   │   │   ├── jumbotron.less ��   │   │   ├── 
+labels.less ��   │   │   ├── list-group.less ��   │   │   ├── media.less 
+��   │   │   ├── mixins ��   │   │   │   ├── alerts.less ��   │   │   
+│   ├── background-variant.less ��   │   │   │   ├── border-radius.less 
+��   │   │   │   ├── buttons.less ��   │   │   │   ├── center-block.less 
+��   │   │   │   ├── clearfix.less ��   │   │   │   ├── forms.less ��   
+│   │   │   ├── gradients.less ��   │   │   │   ├── grid-framework.less 
+��   │   │   │   ├── grid.less ��   │   │   │   ├── hide-text.less ��   
+│   │   │   ├── image.less ��   │   │   │   ├── labels.less ��   │   │   
+│   ├── list-group.less ��   │   │   │   ├── nav-divider.less ��   │   
+│   │   ├── nav-vertical-align.less ��   │   │   │   ├── opacity.less 
+��   │   │   │   ├── pagination.less ��   │   │   │   ├── panels.less 
+��   │   │   │   ├── progress-bar.less ��   │   │   │   ├── 
+reset-filter.less ��   │   │   │   ├── reset-text.less ��   │   │   │   
+├── resize.less ��   │   │   │   ├── responsive-visibility.less ��   │   
+│   │   ├── size.less ��   │   │   │   ├── tab-focus.less ��   │   │   
+│   ├── table-row.less ��   │   │   │   ├── text-emphasis.less ��   │   
+│   │   ├── text-overflow.less ��   │   │   │   └── vendor-prefixes.less 
+��   │   │   ├── mixins.less ��   │   │   ├── modals.less ��   │   │   
+├── navbar.less ��   │   │   ├── navs.less ��   │   │   ├── 
+normalize.less ��   │   │   ├── pager.less ��   │   │   ├── 
+pagination.less ��   │   │   ├── panels.less ��   │   │   ├── 
+popovers.less ��   │   │   ├── print.less ��   │   │   ├── 
+progress-bars.less ��   │   │   ├── responsive-embed.less ��   │   │   
+├── responsive-utilities.less ��   │   │   ├── scaffolding.less ��   │   
+│   ├── tables.less ��   │   │   ├── theme.less ��   │   │   ├── 
+thumbnails.less ��   │   │   ├── tooltip.less ��   │   │   ├── type.less 
+��   │   │   ├── utilities.less ��   │   │   ├── variables.less ��   │   
+│   └── wells.less ��   │   ├── LICENSE ��   │   ├── nuget ��   │   │   
+├── bootstrap.less.nuspec ��   │   │   ├── bootstrap.nuspec ��   │   │   
+└── MyGet.ps1 ��   │   ├── package.js ��   │   ├── package.json ��   │   
+└── README.md ��   └── jquery ��   ├── AUTHORS.txt ��   ├── bower.json 
+��   ├── dist ��   │   ├── core.js ��   │   ├── jquery.js ��   │   ├── 
+jquery.min.js ��   │   ├── jquery.min.map ��   │   ├── jquery.slim.js 
+��   │   ├── jquery.slim.min.js ��   │   └── jquery.slim.min.map ��   
+├── external ��   │   └── sizzle ��   │   ├── dist ��   │   │   ├── 
+sizzle.js ��   │   │   ├── sizzle.min.js ��   │   │   └── sizzle.min.map 
+��   │   └── LICENSE.txt ��   ├── LICENSE.txt ��   ├── README.md ��   
+└── src ��   ├── ajax ��   │   ├── jsonp.js ��   │   ├── load.js ��   
+│   ├── parseXML.js ��   │   ├── script.js ��   │   ├── var ��   │   │   
+├── location.js ��   │   │   ├── nonce.js ��   │   │   └── rquery.js 
+��   │   └── xhr.js ��   ├── ajax.js ��   ├── attributes ��   │   ├── 
+attr.js ��   │   ├── classes.js ��   │   ├── prop.js ��   │   ├── 
+support.js ��   │   └── val.js ��   ├── attributes.js ��   ├── 
+callbacks.js ��   ├── core ��   │   ├── access.js ��   │   ├── 
+DOMEval.js ��   │   ├── init.js ��   │   ├── parseHTML.js ��   │   ├── 
+readyException.js ��   │   ├── ready.js ��   │   ├── 
+ready-no-deferred.js ��   │   ├── stripAndCollapse.js ��   │   ├── 
+support.js ��   │   └── var ��   │   └── rsingleTag.js ��   ├── core.js 
+��   ├── css ��   │   ├── addGetHookIf.js ��   │   ├── adjustCSS.js ��   
+│   ├── curCSS.js ��   │   ├── hiddenVisibleSelectors.js ��   │   ├── 
+showHide.js ��   │   ├── support.js ��   │   └── var ��   │   ├── 
+cssExpand.js ��   │   ├── getStyles.js ��   │   ├── 
+isHiddenWithinTree.js ��   │   ├── rmargin.js ��   │   ├── rnumnonpx.js 
+��   │   └── swap.js ��   ├── css.js ��   ├── data ��   │   ├── Data.js 
+��   │   └── var ��   │   ├── acceptData.js ��   │   ├── dataPriv.js 
+��   │   └── dataUser.js ��   ├── data.js ��   ├── deferred ��   │   └── 
+exceptionHook.js ��   ├── deferred.js ��   ├── deprecated.js ��   ├── 
+dimensions.js ��   ├── effects ��   │   ├── animatedSelector.js ��   │   
+└── Tween.js ��   ├── effects.js ��   ├── event ��   │   ├── ajax.js 
+��   │   ├── alias.js ��   │   ├── focusin.js ��   │   ├── support.js 
+��   │   └── trigger.js ��   ├── event.js ��   ├── exports ��   │   ├── 
+amd.js ��   │   └── global.js ��   ├── jquery.js ��   ├── manipulation 
+��   │   ├── buildFragment.js ��   │   ├── _evalUrl.js ��   │   ├── 
+getAll.js ��   │   ├── setGlobalEval.js ��   │   ├── support.js ��   │   
+├── var ��   │   │   ├── rcheckableType.js ��   │   │   ├── 
+rscriptType.js ��   │   │   └── rtagName.js ��   │   └── wrapMap.js ��   
+├── manipulation.js ��   ├── offset.js ��   ├── queue ��   │   └── 
+delay.js ��   ├── queue.js ��   ├── selector.js ��   ├── 
+selector-native.js ��   ├── selector-sizzle.js ��   ├── serialize.js 
+��   ├── traversing ��   │   ├── findFilter.js ��   │   └── var ��   │   
+├── dir.js ��   │   ├── rneedsContext.js ��   │   └── siblings.js ��   
+├── traversing.js ��   ├── var ��   │   ├── arr.js ��   │   ├── 
+class2type.js ��   │   ├── concat.js ��   │   ├── documentElement.js 
+��   │   ├── document.js ��   │   ├── fnToString.js ��   │   ├── 
+getProto.js ��   │   ├── hasOwn.js ��   │   ├── indexOf.js ��   │   ├── 
+ObjectFunctionString.js ��   │   ├── pnum.js ��   │   ├── push.js ��   
+│   ├── rcssNum.js ��   │   ├── rnothtmlwhite.js ��   │   ├── slice.js 
+��   │   ├── support.js ��   │   └── toString.js ��   └── wrap.js ��── 
+bower.json ��── CorporateBlue ��   ├── css ��   │   ├── fonts.css ��   
+│   └── style.css ��   ├── design ��   │   ├── About.png ��   │   ├── 
+About.psd ��   │   ├── CorporateBlue.zip ��   │   ├── Homepage.psd ��   
+│   ├── Projects.psd ��   │   └── Read\ Me.txt ��   ├── fonts ��   │   
+└── Oswald ��   │   ├── Oswald-BoldItalic.ttf ��   │   ├── 
+Oswald-Bold.ttf ��   │   ├── Oswald-Demi-BoldItalic.ttf ��   │   ├── 
+Oswald-DemiBold.ttf ��   │   ├── Oswald-Extra-LightItalic.ttf ��   │   
+├── Oswald-ExtraLight.ttf ��   │   ├── Oswald-HeavyItalic.ttf ��   │   
+├── Oswald-Heavy.ttf ��   │   ├── Oswald-LightItalic.ttf ��   │   ├── 
+Oswald-Light.ttf ��   │   ├── Oswald-MediumItalic.ttf ��   │   ├── 
+Oswald-Medium.ttf ��   │   ├── Oswald-RegularItalic.ttf ��   │   ├── 
+Oswald-Regular.ttf ��   │   ├── Oswald-Stencil.ttf ��   │   └── SIL\ 
+Open\ Font\ License.txt ��   ├── images ��   │   ├── bg.png ��   │   ├── 
+facebook.png ��   │   ├── flickr.png ��   │   ├── google-plus.png ��   
+│   ├── h1-bg.png ��   │   ├── instagram.png ��   │   ├── 
+logo-footer.png ��   │   ├── logo.png ��   │   ├── RSS.png ��   │   ├── 
+twitter.png ��   │   ├── vimeo.png ��   │   └── youtube.png ��   ├── 
+index.html ��   └── js ��   ├── jquery-2.1.4.js ��   └── script.js ��── 
+FastSearch ��   ├── css ��   │   ├── fonts.css ��   │   └── style.css 
+��   ├── design ��   │   ├── 1-Home.psd ��   │   ├── 2-About.psd ��   
+│   ├── 3-Products.psd ��   │   ├── 4-Blog.psd ��   │   ├── 
+5-BlogPost.psd ��   │   ├── 6-Contact.psd ��   │   ├── FastSearch.zip 
+��   │   ├── Read\ Me.txt ��   │   └── Screens ��   │   ├── 1-Home.jpg 
+��   │   ├── 2-About.jpg ��   │   ├── 3-Products.jpg ��   │   ├── 
+4-Blog.jpg ��   │   ├── 5-BlogPost.jpg ��   │   └── 6-Contact.jpg ��   
+├── fonts ��   │   └── OpenSans ��   │   ├── Apache\ License.txt ��   
+│   ├── OpenSans-BoldItalic.ttf ��   │   ├── OpenSans-Bold.ttf ��   │   
+├── OpenSans-ExtraBoldItalic.ttf ��   │   ├── OpenSans-ExtraBold.ttf 
+��   │   ├── OpenSans-Italic.ttf ��   │   ├── OpenSans-LightItalic.ttf 
+��   │   ├── OpenSans-Light.ttf ��   │   ├── OpenSans-Regular.ttf ��   
+│   ├── OpenSans-SemiboldItalic.ttf ��   │   └── OpenSans-Semibold.ttf 
+��   ├── images ��   │   ├── background.png ��   │   ├── battery.png 
+��   │   ├── caddy_full.png ��   │   ├── download_cloud.png ��   │   ├── 
+facebook.png ��   │   ├── footer-img.png ��   │   ├── googlep.png ��   
+│   ├── logo.png ��   │   ├── pinterest.png ��   │   ├── signs.png ��   
+│   ├── slider-next-hover.png ��   │   ├── slider-next.png ��   │   ├── 
+slider-prev-hover.png ��   │   ├── slider-prev.png ��   │   └── 
+twitter.png ��   ├── index.html ��   └── js ��   ├── jquery-2.1.4.js 
+��   └── script.js ��── freelancehunt-ace81724192e1ea.txt ��── 
+index.html ��── ParallaxTemplate ��   ├── background1.jpg ��   ├── 
+background2.jpg ��   ├── background3.jpg ��   ├── css ��   │   ├── 
+materialize.css ��   │   ├── materialize.min.css ��   │   └── style.css 
+��   ├── fonts ��   │   └── roboto ��   │   ├── Roboto-Bold.eot ��   │   
+├── Roboto-Bold.ttf ��   │   ├── Roboto-Bold.woff ��   │   ├── 
+Roboto-Bold.woff2 ��   │   ├── Roboto-Light.eot ��   │   ├── 
+Roboto-Light.ttf ��   │   ├── Roboto-Light.woff ��   │   ├── 
+Roboto-Light.woff2 ��   │   ├── Roboto-Medium.eot ��   │   ├── 
+Roboto-Medium.ttf ��   │   ├── Roboto-Medium.woff ��   │   ├── 
+Roboto-Medium.woff2 ��   │   ├── Roboto-Regular.eot ��   │   ├── 
+Roboto-Regular.ttf ��   │   ├── Roboto-Regular.woff ��   │   ├── 
+Roboto-Regular.woff2 ��   │   ├── Roboto-Thin.eot ��   │   ├── 
+Roboto-Thin.ttf ��   │   ├── Roboto-Thin.woff ��   │   └── 
+Roboto-Thin.woff2 ��   ├── index.html ��   ├── js ��   │   ├── init.js 
+��   │   ├── materialize.js ��   │   └── materialize.min.js ��   └── 
+LICENSE ��── StarterTemplate ��   ├── css ��   │   ├── materialize.css 
+��   │   ├── materialize.min.css ��   │   └── style.css ��   ├── fonts 
+��   │   └── roboto ��   │   ├── Roboto-Bold.eot ��   │   ├── 
+Roboto-Bold.ttf ��   │   ├── Roboto-Bold.woff ��   │   ├── 
+Roboto-Bold.woff2 ��   │   ├── Roboto-Light.eot ��   │   ├── 
+Roboto-Light.ttf ��   │   ├── Roboto-Light.woff ��   │   ├── 
+Roboto-Light.woff2 ��   │   ├── Roboto-Medium.eot ��   │   ├── 
+Roboto-Medium.ttf ��   │   ├── Roboto-Medium.woff ��   │   ├── 
+Roboto-Medium.woff2 ��   │   ├── Roboto-Regular.eot ��   │   ├── 
+Roboto-Regular.ttf ��   │   ├── Roboto-Regular.woff ��   │   ├── 
+Roboto-Regular.woff2 ��   │   ├── Roboto-Thin.eot ��   │   ├── 
+Roboto-Thin.ttf ��   │   ├── Roboto-Thin.woff ��   │   └── 
+Roboto-Thin.woff2 ��   ├── index.html ��   ├── js ��   │   ├── init.js 
+��   │   ├── materialize.js ��   │   └── materialize.min.js ��   └── 
+LICENSE ��── tests
+    ├── bower_components
+    │   ├── bootstrap
+    │   │   ├── bower.json
+    │   │   ├── CHANGELOG.md
+    │   │   ├── dist
+    │   │   │   ├── css
+    │   │   │   │   ├── bootstrap.css
+    │   │   │   │   ├── bootstrap.css.map
+    │   │   │   │   ├── bootstrap.min.css
+    │   │   │   │   ├── bootstrap.min.css.map
+    │   │   │   │   ├── bootstrap-theme.css
+    │   │   │   │   ├── bootstrap-theme.css.map
+    │   │   │   │   ├── bootstrap-theme.min.css
+    │   │   │   │   └── bootstrap-theme.min.css.map
+    │   │   │   ├── fonts
+    │   │   │   │   ├── glyphicons-halflings-regular.eot
+    │   │   │   │   ├── glyphicons-halflings-regular.svg
+    │   │   │   │   ├── glyphicons-halflings-regular.ttf
+    │   │   │   │   ├── glyphicons-halflings-regular.woff
+    │   │   │   │   └── glyphicons-halflings-regular.woff2
+    │   │   │   └── js
+    │   │   │   ├── bootstrap.js
+    │   │   │   ├── bootstrap.min.js
+    │   │   │   └── npm.js
+    │   │   ├── fonts
+    │   │   │   ├── glyphicons-halflings-regular.eot
+    │   │   │   ├── glyphicons-halflings-regular.svg
+    │   │   │   ├── glyphicons-halflings-regular.ttf
+    │   │   │   ├── glyphicons-halflings-regular.woff
+    │   │   │   └── glyphicons-halflings-regular.woff2
+    │   │   ├── Gemfile
+    │   │   ├── Gemfile.lock
+    │   │   ├── grunt
+    │   │   │   ├── bs-commonjs-generator.js
+    │   │   │   ├── bs-glyphicons-data-generator.js
+    │   │   │   ├── bs-lessdoc-parser.js
+    │   │   │   ├── bs-raw-files-generator.js
+    │   │   │   ├── change-version.js
+    │   │   │   ├── configBridge.json
+    │   │   │   ├── npm-shrinkwrap.json
+    │   │   │   └── sauce_browsers.yml
+    │   │   ├── Gruntfile.js
+    │   │   ├── ISSUE_TEMPLATE.md
+    │   │   ├── js
+    │   │   │   ├── affix.js
+    │   │   │   ├── alert.js
+    │   │   │   ├── button.js
+    │   │   │   ├── carousel.js
+    │   │   │   ├── collapse.js
+    │   │   │   ├── dropdown.js
+    │   │   │   ├── modal.js
+    │   │   │   ├── popover.js
+    │   │   │   ├── scrollspy.js
+    │   │   │   ├── tab.js
+    │   │   │   ├── tooltip.js
+    │   │   │   └── transition.js
+    │   │   ├── less
+    │   │   │   ├── alerts.less
+    │   │   │   ├── badges.less
+    │   │   │   ├── bootstrap.less
+    │   │   │   ├── breadcrumbs.less
+    │   │   │   ├── button-groups.less
+    │   │   │   ├── buttons.less
+    │   │   │   ├── carousel.less
+    │   │   │   ├── close.less
+    │   │   │   ├── code.less
+    │   │   │   ├── component-animations.less
+    │   │   │   ├── dropdowns.less
+    │   │   │   ├── forms.less
+    │   │   │   ├── glyphicons.less
+    │   │   │   ├── grid.less
+    │   │   │   ├── input-groups.less
+    │   │   │   ├── jumbotron.less
+    │   │   │   ├── labels.less
+    │   │   │   ├── list-group.less
+    │   │   │   ├── media.less
+    │   │   │   ├── mixins
+    │   │   │   │   ├── alerts.less
+    │   │   │   │   ├── background-variant.less
+    │   │   │   │   ├── border-radius.less
+    │   │   │   │   ├── buttons.less
+    │   │   │   │   ├── center-block.less
+    │   │   │   │   ├── clearfix.less
+    │   │   │   │   ├── forms.less
+    │   │   │   │   ├── gradients.less
+    │   │   │   │   ├── grid-framework.less
+    │   │   │   │   ├── grid.less
+    │   │   │   │   ├── hide-text.less
+    │   │   │   │   ├── image.less
+    │   │   │   │   ├── labels.less
+    │   │   │   │   ├── list-group.less
+    │   │   │   │   ├── nav-divider.less
+    │   │   │   │   ├── nav-vertical-align.less
+    │   │   │   │   ├── opacity.less
+    │   │   │   │   ├── pagination.less
+    │   │   │   │   ├── panels.less
+    │   │   │   │   ├── progress-bar.less
+    │   │   │   │   ├── reset-filter.less
+    │   │   │   │   ├── reset-text.less
+    │   │   │   │   ├── resize.less
+    │   │   │   │   ├── responsive-visibility.less
+    │   │   │   │   ├── size.less
+    │   │   │   │   ├── tab-focus.less
+    │   │   │   │   ├── table-row.less
+    │   │   │   │   ├── text-emphasis.less
+    │   │   │   │   ├── text-overflow.less
+    │   │   │   │   └── vendor-prefixes.less
+    │   │   │   ├── mixins.less
+    │   │   │   ├── modals.less
+    │   │   │   ├── navbar.less
+    │   │   │   ├── navs.less
+    │   │   │   ├── normalize.less
+    │   │   │   ├── pager.less
+    │   │   │   ├── pagination.less
+    │   │   │   ├── panels.less
+    │   │   │   ├── popovers.less
+    │   │   │   ├── print.less
+    │   │   │   ├── progress-bars.less
+    │   │   │   ├── responsive-embed.less
+    │   │   │   ├── responsive-utilities.less
+    │   │   │   ├── scaffolding.less
+    │   │   │   ├── tables.less
+    │   │   │   ├── theme.less
+    │   │   │   ├── thumbnails.less
+    │   │   │   ├── tooltip.less
+    │   │   │   ├── type.less
+    │   │   │   ├── utilities.less
+    │   │   │   ├── variables.less
+    │   │   │   └── wells.less
+    │   │   ├── LICENSE
+    │   │   ├── nuget
+    │   │   │   ├── bootstrap.less.nuspec
+    │   │   │   ├── bootstrap.nuspec
+    │   │   │   └── MyGet.ps1
+    │   │   ├── package.js
+    │   │   ├── package.json
+    │   │   └── README.md
+    │   ├── bootstrap-toggle
+    │   │   ├── bower.json
+    │   │   ├── css
+    │   │   │   ├── bootstrap2-toggle.css
+    │   │   │   ├── bootstrap2-toggle.min.css
+    │   │   │   ├── bootstrap-toggle.css
+    │   │   │   └── bootstrap-toggle.min.css
+    │   │   ├── doc
+    │   │   │   ├── header.png
+    │   │   │   ├── nytdev.svg
+    │   │   │   ├── nyt.png
+    │   │   │   ├── script.js
+    │   │   │   └── stylesheet.css
+    │   │   ├── Gruntfile.js
+    │   │   ├── index.html
+    │   │   ├── js
+    │   │   │   ├── bootstrap2-toggle.js
+    │   │   │   ├── bootstrap2-toggle.min.js
+    │   │   │   ├── bootstrap2-toggle.min.js.map
+    │   │   │   ├── bootstrap-toggle.js
+    │   │   │   ├── bootstrap-toggle.min.js
+    │   │   │   └── bootstrap-toggle.min.js.map
+    │   │   ├── LICENSE
+    │   │   ├── package.json
+    │   │   └── README.md
+    │   └── jquery
+    │   ├── AUTHORS.txt
+    │   ├── bower.json
+    │   ├── dist
+    │   │   ├── core.js
+    │   │   ├── jquery.js
+    │   │   ├── jquery.min.js
+    │   │   ├── jquery.min.map
+    │   │   ├── jquery.slim.js
+    │   │   ├── jquery.slim.min.js
+    │   │   └── jquery.slim.min.map
+    │   ├── external
+    │   │   └── sizzle
+    │   │   ├── dist
+    │   │   │   ├── sizzle.js
+    │   │   │   ├── sizzle.min.js
+    │   │   │   └── sizzle.min.map
+    │   │   └── LICENSE.txt
+    │   ├── LICENSE.txt
+    │   ├── README.md
+    │   └── src
+    │   ├── ajax
+    │   │   ├── jsonp.js
+    │   │   ├── load.js
+    │   │   ├── parseXML.js
+    │   │   ├── script.js
+    │   │   ├── var
+    │   │   │   ├── location.js
+    │   │   │   ├── nonce.js
+    │   │   │   └── rquery.js
+    │   │   └── xhr.js
+    │   ├── ajax.js
+    │   ├── attributes
+    │   │   ├── attr.js
+    │   │   ├── classes.js
+    │   │   ├── prop.js
+    │   │   ├── support.js
+    │   │   └── val.js
+    │   ├── attributes.js
+    │   ├── callbacks.js
+    │   ├── core
+    │   │   ├── access.js
+    │   │   ├── DOMEval.js
+    │   │   ├── init.js
+    │   │   ├── parseHTML.js
+    │   │   ├── readyException.js
+    │   │   ├── ready.js
+    │   │   ├── ready-no-deferred.js
+    │   │   ├── stripAndCollapse.js
+    │   │   ├── support.js
+    │   │   └── var
+    │   │   └── rsingleTag.js
+    │   ├── core.js
+    │   ├── css
+    │   │   ├── addGetHookIf.js
+    │   │   ├── adjustCSS.js
+    │   │   ├── curCSS.js
+    │   │   ├── hiddenVisibleSelectors.js
+    │   │   ├── showHide.js
+    │   │   ├── support.js
+    │   │   └── var
+    │   │   ├── cssExpand.js
+    │   │   ├── getStyles.js
+    │   │   ├── isHiddenWithinTree.js
+    │   │   ├── rmargin.js
+    │   │   ├── rnumnonpx.js
+    │   │   └── swap.js
+    │   ├── css.js
+    │   ├── data
+    │   │   ├── Data.js
+    │   │   └── var
+    │   │   ├── acceptData.js
+    │   │   ├── dataPriv.js
+    │   │   └── dataUser.js
+    │   ├── data.js
+    │   ├── deferred
+    │   │   └── exceptionHook.js
+    │   ├── deferred.js
+    │   ├── deprecated.js
+    │   ├── dimensions.js
+    │   ├── effects
+    │   │   ├── animatedSelector.js
+    │   │   └── Tween.js
+    │   ├── effects.js
+    │   ├── event
+    │   │   ├── ajax.js
+    │   │   ├── alias.js
+    │   │   ├── focusin.js
+    │   │   ├── support.js
+    │   │   └── trigger.js
+    │   ├── event.js
+    │   ├── exports
+    │   │   ├── amd.js
+    │   │   └── global.js
+    │   ├── jquery.js
+    │   ├── manipulation
+    │   │   ├── buildFragment.js
+    │   │   ├── _evalUrl.js
+    │   │   ├── getAll.js
+    │   │   ├── setGlobalEval.js
+    │   │   ├── support.js
+    │   │   ├── var
+    │   │   │   ├── rcheckableType.js
+    │   │   │   ├── rscriptType.js
+    │   │   │   └── rtagName.js
+    │   │   └── wrapMap.js
+    │   ├── manipulation.js
+    │   ├── offset.js
+    │   ├── queue
+    │   │   └── delay.js
+    │   ├── queue.js
+    │   ├── selector.js
+    │   ├── selector-native.js
+    │   ├── selector-sizzle.js
+    │   ├── serialize.js
+    │   ├── traversing
+    │   │   ├── findFilter.js
+    │   │   └── var
+    │   │   ├── dir.js
+    │   │   ├── rneedsContext.js
+    │   │   └── siblings.js
+    │   ├── traversing.js
+    │   ├── var
+    │   │   ├── arr.js
+    │   │   ├── class2type.js
+    │   │   ├── concat.js
+    │   │   ├── documentElement.js
+    │   │   ├── document.js
+    │   │   ├── fnToString.js
+    │   │   ├── getProto.js
+    │   │   ├── hasOwn.js
+    │   │   ├── indexOf.js
+    │   │   ├── ObjectFunctionString.js
+    │   │   ├── pnum.js
+    │   │   ├── push.js
+    │   │   ├── rcssNum.js
+    │   │   ├── rnothtmlwhite.js
+    │   │   ├── slice.js
+    │   │   ├── support.js
+    │   │   └── toString.js
+    │   └── wrap.js
+    ├── bower.json
+    ├── css
+    │   └── style.css
+    ├── index.html
+    └── js
+        ├── script.js
+        └── theme.js 106 directories, 654 files
