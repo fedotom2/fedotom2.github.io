@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  outline: 1px solid black;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#display {
+  outline: 1px solid black;
+  width: calc(100% - 800px);
+}
